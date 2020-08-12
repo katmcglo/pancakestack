@@ -1,10 +1,14 @@
 import React from 'react';
+import Layout from './components/Layout/Layout';
+import StackBuilder from './containers/StackBuilder/StackBuilder';
 
 
 function App() {
   return (
     <div>
-      <h1>i'm a horny app</h1>
+      <Layout>
+        <StackBuilder></StackBuilder>
+      </Layout>
     </div>
   );
 }
