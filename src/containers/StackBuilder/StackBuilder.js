@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Auxiliary from '../../hoc/Auxiliary';
+import PancakeStack from '../../components/PancakeStack/PancakeStack';
 
 class StackBuilder extends Component {
   render() {
     return (
       <Auxiliary>
-        <div>Pancake Stack</div>
+        <PancakeStack/>
         <div>Build Controls</div>
       </Auxiliary>
     );
