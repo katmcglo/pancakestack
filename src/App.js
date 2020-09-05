@@ -6,7 +6,9 @@ import StackBuilder from './containers/StackBuilder/StackBuilder';
 function App() {
   return (
     <div>
+      <Layout>
         <StackBuilder></StackBuilder>
+      </Layout>
     </div>
   );
 }
